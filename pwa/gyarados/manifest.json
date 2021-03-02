@@ -1,0 +1,11 @@
+{
+"name":"hello world",
+"short_name":"short_name"
+"start_url":"/",
+"display":"fullscreen",
+"icons":[{
+  		"src":"gyarados.png",
+  		"type":"image/png",
+  		"sizes":"144x144"
+}]
+}
