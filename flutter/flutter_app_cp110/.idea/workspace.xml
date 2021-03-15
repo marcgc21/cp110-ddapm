@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fab8dedc-e1c0-4d83-aa89-40f4eac64ceb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../react-native" beforeDir="false" afterPath="$PROJECT_DIR$/../../react-native" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1pJ0Sm10XtTVt4UwiFIgyDSh2Ea" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fab8dedc-e1c0-4d83-aa89-40f4eac64ceb" name="Default Changelist" comment="" />
+      <created>1614885887169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614885887169</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1308" y="138" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1615204892416">
+      <screen x="1280" y="23" width="1366" height="745" />
+    </state>
+    <state x="1308" y="138" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1280.23.1366.745/0.23.1280.697@1280.23.1366.745" timestamp="1615204892416" />
+    <state width="926" height="202" key="GridCell.Tab.0.bottom" timestamp="1614887978033">
+      <screen x="1280" y="0" width="1366" height="768" />
+    </state>
+    <state width="926" height="202" key="GridCell.Tab.0.bottom/1280.0.1366.768/0.0.1280.800@1280.0.1366.768" timestamp="1614887978033" />
+    <state width="926" height="202" key="GridCell.Tab.0.center" timestamp="1614887978030">
+      <screen x="1280" y="0" width="1366" height="768" />
+    </state>
+    <state width="926" height="202" key="GridCell.Tab.0.center/1280.0.1366.768/0.0.1280.800@1280.0.1366.768" timestamp="1614887978030" />
+    <state width="926" height="202" key="GridCell.Tab.0.left" timestamp="1614887978029">
+      <screen x="1280" y="0" width="1366" height="768" />
+    </state>
+    <state width="926" height="202" key="GridCell.Tab.0.left/1280.0.1366.768/0.0.1280.800@1280.0.1366.768" timestamp="1614887978029" />
+    <state width="926" height="202" key="GridCell.Tab.0.right" timestamp="1614887978032">
+      <screen x="1280" y="0" width="1366" height="768" />
+    </state>
+    <state width="926" height="202" key="GridCell.Tab.0.right/1280.0.1366.768/0.0.1280.800@1280.0.1366.768" timestamp="1614887978032" />
+  </component>
+</project>
