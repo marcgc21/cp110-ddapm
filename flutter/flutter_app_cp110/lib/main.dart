@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_cp110/MyColumn.dart';
+import 'package:flutter_app_cp110/MyDrawer.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,6 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Welcome to Flutter',
       home: Scaffold(
+        drawer: MyDrawer(),
         appBar: AppBar(
           title: Text('Welcome to Flutter'),
         ),
@@ -23,5 +25,11 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+
 
 
