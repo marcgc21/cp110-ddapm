@@ -1,6 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_cp110/EventDetail.dart';
+import 'package:flutter_app_cp110/models/Event.dart';
 
 class FirstRoute extends StatelessWidget {
+
+  final events = List<Event>.generate(20, (index) => Event(
+    'MAR',
+    '$index',
+    'Domingo',
+  ),);
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -8,20 +18,22 @@ class FirstRoute extends StatelessWidget {
         appBar: AppBar(
           title: Text('First Route'),
         ),
-        body: ListView(
-          children: [
-           agendaTile(
-             month:"MAR",
-             numberDay: "20",
-             nameDay: "Sábado",
-           ),
-            agendaTile(
-              month:"MAR",
-              numberDay: "21",
-              nameDay: "Domingo",
+        body: ListView.builder(
+            itemCount: events.length,
+            itemBuilder: (context, index){
+          return GestureDetector(
+            onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>EventDetail(event: events[index]),
+              ),
+            );
+            },
+            child: agendaTile(
+              month: events[index].month,
+              numberDay: events[index].numberDay,
+              nameDay: events[index].nameDay,
             ),
-          ],
-        )
+          );
+        })
     );
   }
 
@@ -89,7 +101,6 @@ class agendaTile extends StatelessWidget {
                 ),
               ),
 
-
             ],
           ),
         ),
@@ -134,3 +145,4 @@ class agendaTile extends StatelessWidget {
     );
   }
 }
+
