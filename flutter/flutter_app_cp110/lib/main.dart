@@ -1,32 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_cp110/MyColumn.dart';
-import 'package:flutter_app_cp110/MyDrawer.dart';
+import 'package:flutter_app_cp110/MyAwesomeApp.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() => runApp(MyApp());
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Welcome to Flutter',
-      home: Scaffold(
-        drawer: MyDrawer(),
-        appBar: AppBar(
-          title: Text('Welcome to Flutter'),
-        ),
-        body: Column(
-          children: [
-            MyColumn(),
-            MyColumn(),
-            MyColumn(),
-          ],
-        ),
-      ),
-    );
+    return MyAwesomeApp();
   }
 }
-
-
 
 
 
