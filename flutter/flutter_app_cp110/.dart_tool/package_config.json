@@ -50,6 +50,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "firebase_auth",
+      "rootUri": "file:///Users/marc/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_auth_platform_interface",
+      "rootUri": "file:///Users/marc/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-4.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_auth_web",
+      "rootUri": "file:///Users/marc/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-1.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "firebase_core",
       "rootUri": "file:///Users/marc/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.0.3",
       "packageUri": "lib/",
@@ -82,6 +100,18 @@
     {
       "name": "flutter_web_plugins",
       "rootUri": "file:///Users/marc/development/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/marc/development/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///Users/marc/development/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -176,7 +206,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-04-15T14:06:18.048971Z",
+  "generated": "2021-04-15T14:59:17.877973Z",
   "generator": "pub",
   "generatorVersion": "2.12.2"
 }

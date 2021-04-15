@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_cp110/LoginScreen.dart';
 import 'package:flutter_app_cp110/MyAwesomeApp.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -12,7 +13,7 @@ void main() async {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MyAwesomeApp();
+    return LoginScreen();
   }
 }
 
