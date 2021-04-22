@@ -47,8 +47,8 @@ class _LoginScreenState extends State<LoginScreen> {
                             email: _email, password: _password);
                         if(authUser!=null){
                           print(authUser);
-
                           print("Login Success");
+                          Navigator.of(context).pushNamed("/app");
                         }
                         else{
                           print("Login Error");
