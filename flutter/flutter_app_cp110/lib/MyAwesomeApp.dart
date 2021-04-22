@@ -21,9 +21,11 @@ class MyAwesomeApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Welcome to Flutter'),
           actions: [
-            IconButton(icon: Icon(Icons.exit_to_app), onPressed: (){
-              print('exit');
-              auth.signOut();
+            IconButton(icon: Icon(Icons.exit_to_app), onPressed: () async {
+              print("User BEFORE Log-Out -> " + auth.currentUser.toString());
+              await auth.signOut();
+              print("User AFTER Log-Out -> " + auth.currentUser.toString());
+
               Navigator.of(context).pushNamed("/");
             })
           ],
