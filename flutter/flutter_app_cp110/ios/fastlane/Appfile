@@ -1,0 +1,5 @@
+app_identifier("com.facens.flutterAppCp110 ") # The bundle identifier of your app
+apple_id("marcgc21@gmail.com") # Your Apple email address
+
+itc_team_id "120075759"
+
