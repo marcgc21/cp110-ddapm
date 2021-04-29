@@ -1,4 +1,4 @@
-package com.facens.flutter_app_cp110
+package com.facens.flutterAppCp110
 
 import io.flutter.embedding.android.FlutterActivity
 

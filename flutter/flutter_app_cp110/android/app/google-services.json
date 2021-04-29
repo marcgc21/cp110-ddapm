@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "366525117355",
+    "project_id": "facens-cp110",
+    "storage_bucket": "facens-cp110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366525117355:android:eabbd5e636c26cea3b18ee",
+        "android_client_info": {
+          "package_name": "com.facens.flutterAppCp110"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366525117355-7nhnt23ab9fsjvfl4doljesuv7njiqgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCllc7IKRn1AjewlNZdsjCXV47Aqbw8AxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366525117355-7nhnt23ab9fsjvfl4doljesuv7njiqgg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "366525117355-2dtgcv4j6sq2iiddiqok87631ukdgpka.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.facens.flutterAppCp110"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
